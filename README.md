@@ -8,13 +8,13 @@ pip install f5-sdk
 
 ## Usage ##
 ```sh
-./f5_check_certificates.py --warning <number> --critical <number> --f5.ip ip --f5.user <username> --f5.password <password> --f5.port <port>
+./f5_check_certificates.py -h --warning <number> --critical <number> --f5.ip <ip> --f5.user <username> --f5.password <password> --f5.port <port>
 ```
 
 ## Example ###
 ```sh
 
-./f5_check_certificates.py --warning 45 --critical 30 --f5.ip <IP> --f5.user admin --f5.password password --f5.port 8443
+./f5_check_certificates.py --warning 45 --critical 30 --f5.ip 10.100.10.10 --f5.user admin --f5.password password --f5.port 8443
 
 CRITICAL:  2 certificate(s) are going to expire in  30  days.
 Certificate:  test_cert_a 2022-08-18 09:31:37
