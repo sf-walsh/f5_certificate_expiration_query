@@ -42,6 +42,7 @@ Query for SSL Certificates that are going to expire within a certain time frame.
 ```
 (tmos)# cd /; run /sys crypto check-cert
 emailAddress=testuser@bigbusiness.org,CN=test_cert_a,OU=test_division,O=test,L=US,ST=FL,C=US in file /Common/test_cert_a will expire on Aug 18 13:31:37 2022 GMT
+```
 
 ```sh
 #Checking all certs in all partitions and all statuses
